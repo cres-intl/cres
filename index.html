@@ -63,7 +63,7 @@
 
       .nav-links {
         display: flex;
-        gap: 1.5rem;
+        gap: 3rem;
         align-items: center;
       }
 
@@ -154,6 +154,11 @@
         color: #2c5e2c;
         line-height: 1.6;
         font-size: 1rem;
+      }
+
+      /* Success section */
+      .success-section {
+        margin-bottom: 6rem;
       }
 
       /* Gallery section */
@@ -495,7 +500,10 @@
       </div>
       <nav class="nav-links">
         <a href="https://www.instagram.com/c.r.e.s_intl" target="_blank" class="nav-link">Instagram</a>
-        <a href="https://chat.whatsapp.com/BoPKO3cmgIDJ0vm9lKkM9P?fbclid=PAZXh0bgNhZW0CMTEAAafzMmwE7E8Y9GAkq2NPwx8mVKAe0-ZzLENQ37L8KrUOxlUO9LCABWVE5qZoPA_aem_LlZ3b9_sjHPnt6UimW1dhA" target="_blank" class="nav-link">WhatsApp Student Forum</a>
+        <a href="https://www.facebook.com/share/1E1bvtC3iP/" target="_blank" class="nav-link">Facebook</a>
+        <a href="https://www.linkedin.com/company/c-r-e-s-international/" target="_blank" class="nav-link">LinkedIn</a>
+        <a href="mailto:contact.cres.intl@gmail.com" target="_blank" class="nav-link">Email</a>
+        <a href="https://chat.whatsapp.com/BoPKO3cmgIDJ0vm9lKkM9P?fbclid=PAZXh0bgNhZW0CMTEAAafzMmwE7E8Y9GAkq2NPwx8mVKAe0-ZzLENQ37L8KrUOxlUO9LCABWVE5qZoPA_aem_LlZ3b9_sjHPnt6UimW1dhA" target="_blank" class="nav-link">WhatsApp Community</a>
       </nav>
     </header>
 
@@ -526,8 +534,13 @@
       </section>
       <section class="card" style="margin-bottom: 4rem;">
         <h2 class="team-title">Upcoming Events</h2>
-        <div class="gallery-item" style="max-width: 600px; margin: 0 auto;">
-          <img src="upcoming-event.png" alt="Upcoming Event" />
+      
+          <div class="gallery-item placeholder">
+            <div class="placeholder-content">
+              <span>📷</span>
+              <p>Coming Soon</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -551,6 +564,29 @@
         </div>
       </section>
 
+      <section class="success-section">
+        <div class="card">
+          <h2 class="gallery-title">Safar-e-Farda Summer Camp</h2>
+          <p class="gallery-subtitle">Hands-on learning and awareness through interactive environmental activities</p>
+
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="safar-1.png" alt="Safar e Farda 1">
+            </div>
+          </div>
+
+          <div class="description-wrapper" style="max-width: 800px; margin: 0 auto; text-align: left;">
+            <p class="description-text" style="color: #2c5e2c; line-height: 1.6; font-size: 1rem; overflow: hidden; max-height: 7.5em; position: relative;" id="desc2">
+              Held from <strong>24–27 July 2025</strong>, the Safar‑e‑Farda Summer Camp was a milestone event hosted by C.R.E.S International in partnership with Takhti Online, Digital Rights Foundation and Kainaati Irtiqa Organization. The four‑day experience brought together students at SONA Public School for immersive learning on sustainability, programming and technology.<br><br>
+              Students engaged in interactive modules including building a line-following car using Arduino, programming on Scratch, and team challenges designed to spark creativity and environmental awareness. Selected students took on intern roles—assisting facilitators, coordinating activities, and gaining real‐world skills in project execution and teamwork.<br><br>
+              The camp’s energy and learning were shared daily across social media platforms, capturing moments of collaboration, reflection, and youthful enthusiasm. As one of our most engaging initiatives yet, Safar‑e‑Farda set a new benchmark for youth empowerment through environmental education.<br><br>
+              We extend heartfelt thanks to Takhti Online, the DRF, Kainaati Irtiqa Organization, SONA Public School, our volunteer facilitators, and the bright young minds who made this experience unforgettable.
+            </p>
+            <button onclick="toggleDesc2()" style="margin-top: 1rem; background: none; border: none; color: #1f3b1f; font-weight: 600; cursor: pointer;">Read More</button>
+          </div>
+        </div>
+      </section>
+    
       <section class="success-section">
         <div class="card">
         <h2 class="gallery-title">Pathway to Success</h2>
@@ -594,42 +630,42 @@
           Explore moments from our journey towards sustainability and career development
         </p>
         <div class="gallery-grid">
-          <div class="gallery-item placeholder">
-            <div class="placeholder-content">
-              <span>📷</span>
-              <p>Photo Coming Soon</p>
+            <div class="gallery-item">
+              <img src="gallery-1.png"                                  alt="Description" />
             </div>
-          </div>
-          <div class="gallery-item placeholder">
-            <div class="placeholder-content">
-              <span>📷</span>
-              <p>Photo Coming Soon</p>
-            </div>
-          </div>
-          <div class="gallery-item placeholder">
-            <div class="placeholder-content">
-              <span>📷</span>
-              <p>Photo Coming Soon</p>
-            </div>
-          </div>
-          <div class="gallery-item placeholder">
-            <div class="placeholder-content">
-              <span>📷</span>
-              <p>Photo Coming Soon</p>
-            </div>
-          </div>
-          <div class="gallery-item placeholder">
-            <div class="placeholder-content">
-              <span>📷</span>
-              <p>Photo Coming Soon</p>
-            </div>
-          </div>
-          <div class="gallery-item placeholder">
-            <div class="placeholder-content">
-              <span>📷</span>
-              <p>Photo Coming Soon</p>
-            </div>
-          </div>
+              <div class="gallery-item">
+                <img src="gallery-2.png"                                  alt="Description" />
+              </div>
+              <div class="gallery-item">
+                <img src="gallery-3.png"                                  alt="Description" />
+              </div>
+              <div class="gallery-item">
+                <img src="gallery-4.png"                                  alt="Description" />
+              </div>
+              <div class="gallery-item">
+                <img src="gallery-5.png"                                  alt="Description" />
+              </div>
+              <div class="gallery-item">
+                <img src="gallery-6.png"                                  alt="Description" />
+              </div>
+              <div class="gallery-item">
+                  <img src="gallery-7.png"                                  alt="Description" />
+              </div>
+              <div class="gallery-item">
+                  <img src="gallery-8.png"                                  alt="Description" />
+              </div>
+              <div class="gallery-item">
+                  <img src="gallery-9.png"                                  alt="Description" />
+              </div>
+              <div class="gallery-item">
+                  <img src="gallery-10.png"                                  alt="Description" />
+              </div>
+              <div class="gallery-item">
+                  <img src="gallery-11.png"                                  alt="Description" />
+              </div>
+              <div class="gallery-item">
+                  <img src="gallery-12.png"                                  alt="Description" />
+              </div>
         </div>
         </div>    
       </section>
@@ -637,12 +673,13 @@
       <section class="actions-section">
         <h2 class="actions-title">Get Connected</h2>
         <div class="buttons-container">
-          <a href="https://www.instagram.com/c.r.e.s_intl" target="_blank" class="btn">
-            Instagram
+          <a href="mailto:contact.cres.intl@gmail.com" target="_blank" class="btn">
+            Email
           </a>
+          
           <a href="https://chat.whatsapp.com/BoPKO3cmgIDJ0vm9lKkM9P?fbclid=PAZXh0bgNhZW0CMTEAAafzMmwE7E8Y9GAkq2NPwx8mVKAe0-ZzLENQ37L8KrUOxlUO9LCABWVE5qZoPA_aem_LlZ3b9_sjHPnt6UimW1dhA"
             target="_blank" class="btn btn-secondary">
-            Whatsapp Student Forum
+            Whatsapp Community
           </a>
         </div>
       </section>
@@ -660,7 +697,19 @@
           btn.textContent = 'Read Less';
         }
       });
-    </script>
+      function toggleDesc2() {
+        const desc2 = document.getElementById('desc2');
+        const btn2 = event.target;
 
+        if (desc2.style.maxHeight === 'none') {
+          desc2.style.maxHeight = '7.5em';
+          btn2.textContent = 'Read More';
+        } else {
+          desc2.style.maxHeight = 'none';
+          btn2.textContent = 'Read Less';
+        }
+      }
+    </script>
+    
   </body>
 </html>
